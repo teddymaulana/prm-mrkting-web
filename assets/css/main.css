@@ -42,10 +42,12 @@ h3 {
 	box-shadow: none;
 	border: none;
 }
+
 .btn {
   padding: 15px 35px !important;
   letter-spacing: 1px;	
   font-size: 10px !important; 
+
 }
 .d-hide {
 	display: none !important;
@@ -205,6 +207,12 @@ h3 {
 	position: absolute;
 	bottom: 15px;
 }
+.product .content .buy-btn .button {
+	font-size: 10px;
+}
+.buy-btn-btn {
+	background-color: #33a0b1 !important;
+}
 
 .tools {
 	background-color: #3c4b63;
@@ -255,7 +263,31 @@ h3 {
 
 .partner {
 	margin-bottom: 140px;
-
+}
+.partner .ui.secondary.pointing.menu {
+	border-bottom: 2px solid #dcdfe7;
+}
+.partner .partner.ui.secondary.pointing.menu .item {
+	border-bottom: 1px solid #dcdfe7;
+}
+.partner .partner.ui.secondary.pointing.menu .item.active {
+	border-bottom: 1px solid #dcdfe7;
+}
+.partner .partner.ui.secondary.pointing.menu .item.active .act {
+	display: block;
+}
+.partner .act {
+	position: absolute;
+	bottom: -2.5px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 20px;
+	display: none;
+	border-radius: 2.5px;
+  	background-color: #52c2d3;
+  	width: 29px;
+  	height: 5px;
 }
 .partner .header_ {
 	padding-top: 100px;
@@ -319,9 +351,15 @@ footer {
 .footer .logo {
 	width: 120px;
 }
+.footer h4 {
+	font-size: 14px;
+  	font-weight: 800;
+  	color: #3c4b63;
+}
 .footer p {
 	font-size: 12px;
 	margin-top: 25px;
+	width: 270px;
 }
 .footer ul {
 	list-style: none;
