@@ -324,6 +324,13 @@ h3 {
 }
 .partner .partner-dropdown {
 	margin-top: 30px;
+	background-color: #eceff6  !important;
+	font-size: 11px;
+  	font-weight: 900;
+  	letter-spacing: 1px;
+ 	color: #3c4b63 !important;
+ 	width: 224px;
+    margin: 30px auto 0;
 }
 .getstarted {
 	background-color: #37465e;
@@ -412,7 +419,7 @@ footer {
 		display: none !important;
 	}
 	.d-hide {
-		display: block;
+		display: block !important;
 	}
 	.header h1 {
 		font-size: 32px;
