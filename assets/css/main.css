@@ -44,10 +44,14 @@ h3 {
 }
 
 .btn {
-  padding: 15px 35px !important;
+  padding: 10px 19px !important;
   letter-spacing: 1px;	
   font-size: 10px !important; 
-
+  font-weight: 600 !important;
+  margin-top: 40px !important;
+}
+.btn:hover {
+	opacity: 0.9;
 }
 .d-hide {
 	display: none !important;
@@ -412,6 +416,9 @@ footer {
 		margin-left: auto!important;
     	margin-right: auto!important;
 	}
+	.tools .prss p {
+		width: 375px;
+	}
 }
 
 @media only screen and (max-width: 951px) {
@@ -448,6 +455,9 @@ footer {
 	.tools .wpss img {
 		position: relative;
 		margin-left: -60px;
+	}
+	.partner {
+		margin-bottom: 60px;
 	}
 	.partner .header_ {
 		padding-top: 50px;
