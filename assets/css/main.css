@@ -410,7 +410,28 @@ footer {
 	bottom:30px;
 }
 
+@media only screen and (min-width: 765px) and (max-width: 951px) {
+	.tools .wpss img {
+		position: absolute !important;
+	}
+	.tools .wpss .two {
+		width:50% !important;
+	}
+	.tools .ui.column.grid>[class*="eleven wide"].column, .ui.grid>.column.row>[class*="eleven wide"].column, .ui.grid>.row>[class*="eleven wide"].column, .ui.grid>[class*="eleven wide"].column {
+		width:50% !important;
+	}
+	.tools .ui.column.grid>[class*="two wide"].column, .ui.grid>.column.row>[class*="two wide"].column, .ui.grid>.row>[class*="two wide"].column, .ui.grid>[class*="two wide"].column {
+		width: 50% !important;
+	}
+	.ui.grid>[class*="eight wide"].column.prss, .ui.grid>[class*="eight wide"].column.wpss {
+		width: 100% !important;
+	}
+	.tools .prss img {
+		margin-left:0 !important;
+	}
 
+
+}
 @media only screen and (min-width: 1400px) {
 	.tools .prss p {
 		width: 375px;
@@ -436,7 +457,14 @@ footer {
 	
 }
 
+@media only screen and (max-width: 1200px) {
+	.btn-prev, .btn-next {
+		display: none !important;
+	} 
+}
+
 @media only screen and (max-width: 951px) {
+	
 	.m-hide {
 		display: none !important;
 	}
@@ -479,7 +507,7 @@ footer {
 	}
 	.tools .wpss img {
 		position: relative;
-		margin-left: -60px;
+		margin-left: -20px;
 	}
 	.tools .prss .btn, .tools .wpss .btn {
 		position: absolute;
