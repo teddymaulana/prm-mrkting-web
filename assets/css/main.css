@@ -407,6 +407,11 @@ footer {
 }
 
 
+@media only screen and (min-width: 1400px) {
+	.tools .prss p {
+		width: 375px;
+	}
+}
 @media only screen and (min-width: 1200px) {
   	.ui.container {
     	width: 945px !important;
@@ -416,17 +421,21 @@ footer {
 		margin-left: auto!important;
     	margin-right: auto!important;
 	}
-	.tools .prss p {
-		width: 375px;
-	}
+	
 }
 
 @media only screen and (max-width: 951px) {
 	.m-hide {
 		display: none !important;
 	}
+	.m-center {
+		text-align: center !important;
+	}
 	.d-hide {
 		display: block !important;
+	}
+	.header {
+		padding:30px 0 50px 0;
 	}
 	.header h1 {
 		font-size: 32px;
@@ -448,6 +457,10 @@ footer {
 	.tools .wpss {
 		padding-bottom: 10px !important;
 	}
+	.tools .wpss .content,
+	.tools .prss .content {
+		height: 290px;
+	}
 	.tools .prss img {
 		position: relative;
 		margin-left: -60px;
@@ -457,7 +470,7 @@ footer {
 		margin-left: -60px;
 	}
 	.partner {
-		margin-bottom: 60px;
+		margin-bottom: 35px;
 	}
 	.partner .header_ {
 		padding-top: 50px;
