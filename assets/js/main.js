@@ -8,6 +8,17 @@ $(document).ready(function(){
 	    }
 	  })	
 
+      $('a.scrollable').on("click", function(e){
+        e.preventDefault();
+
+        var container = $("html, body");
+        var scrollTo = $(this.getAttribute('href'));
+
+        container.animate({
+          scrollTop: scrollTo.offset().top
+        }, 800, 'swing');
+      });  
+
 	var swiper = new Swiper('.swiper-container', {
         pagination: '.swiper-pagination',
         slidesPerView: 'auto',
