@@ -241,7 +241,7 @@ h3 {
 	background-color: #33a0b1 !important;
 }
 .tools .prss .content {
-	padding-top: 86px;
+	padding-top: 66px;
 	padding-bottom: 40px;
 	height: 325px;
 }
@@ -249,7 +249,7 @@ h3 {
 	background-color: #dcdfe7 !important;
 }
 .tools .wpss .content {
-	padding-top: 86px;
+	padding-top: 66px;
 	padding-bottom: 40px;
 	height: 325px;
 }
@@ -405,6 +405,10 @@ footer {
 .footer .bottom a {
 	color: #a1acbe;
 }
+.tools .prss .btn, .tools .wpss .btn {
+	position: absolute;
+	bottom:30px;
+}
 
 
 @media only screen and (min-width: 1400px) {
@@ -416,11 +420,19 @@ footer {
   	.ui.container {
     	width: 945px !important;
   	}
+  	.prss .page {
+  		width: 100% !important; 
+  	}
   	footer .footer-container {
 		width: 1148px !important;
 		margin-left: auto!important;
     	margin-right: auto!important;
 	}
+	.tools .prss p,.tools .prss h4 {
+		width: 340px;
+	}
+
+
 	
 }
 
@@ -468,6 +480,10 @@ footer {
 	.tools .wpss img {
 		position: relative;
 		margin-left: -60px;
+	}
+	.tools .prss .btn, .tools .wpss .btn {
+		position: absolute;
+		bottom:60px;
 	}
 	.partner {
 		margin-bottom: 35px;
