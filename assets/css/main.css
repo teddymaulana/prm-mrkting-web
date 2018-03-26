@@ -433,6 +433,9 @@ footer {
 
 }
 @media only screen and (min-width: 1400px) {
+	.tools .wpss .eight.computer > img {
+		display: none;
+	}
 	.tools .prss p {
 		width: 375px;
 	}
@@ -469,6 +472,9 @@ footer {
 	
 }
 @media only screen and (max-width: 1400px) {
+	.tools .wpss .eight.computer > img {
+		display: none;
+	}
 	.tools .prss .computer.content,
 	.tools .wpss .computer.content {
 		padding-left: 20px;
@@ -550,6 +556,14 @@ footer {
 
 }
 @media only screen and (max-width: 951px) {
+	.tools .wpss > img {
+		display: none;
+	}
+	.tools .wpss .eight.computer > img {
+		display: block;
+		bottom: 0;
+		width: 320px;
+	}
 	.tools .wpss .computer.content {
 		margin-left: 0;
 	}
@@ -631,8 +645,19 @@ footer {
 }
 
 @media only screen and (max-width: 765px) {
+	.tools .wpss {
+		height: auto;
+	}
 	.tools .wpss img {
+		position: relative !important;
 		margin-left: -20px;
+	}
+	.tools .wpss .eight.computer > img {
+		display: block;
+		left: -30px;
+	}
+	.tools .prss .computer.content, .tools .wpss .computer.content {
+		height: 280px;
 	}
 
 }
