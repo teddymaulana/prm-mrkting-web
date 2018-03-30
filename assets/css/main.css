@@ -100,9 +100,7 @@ h3 {
 .about {
 	padding: 54px 0;
 }
-.about .clients {
-	margin-top:10px;
-}
+
 .about .clients .column {
 	height: 100px;
 }
@@ -576,6 +574,13 @@ footer {
 
 }
 
+@media only screen and (max-width: 1050px) and (min-width: 951px) {
+	.tools .prss .computer.content, .tools .wpss .computer.content {
+		padding-top: 45px;
+		height: 370px;
+	}
+}
+
 @media only screen and (max-width: 1000px) { 
 
 }
@@ -675,17 +680,28 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 765px) {
+@media only screen and (max-width: 767px) {
 	.tools .wpss {
 		height: auto;
 	}
+	.tools .wpss .img {
+		text-align: center;
+	}
+	.tools .prss .img {
+		text-align: center;
+	}
 	.tools .wpss img {
 		position: relative !important;
-		margin-left: -20px;
+		margin: 0px auto;
+	}
+	.tools .promo-magic.pimg {
+		text-align: center;
+	}
+	.tools .prss img {
+		margin-left: 0;
 	}
 	.tools .wpss .eight.computer > img {
 		display: block;
-		left: -30px;
 	}
 	.tools .prss .computer.content, .tools .wpss .computer.content {
 		height: 280px;
